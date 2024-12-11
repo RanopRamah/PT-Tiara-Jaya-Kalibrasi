@@ -1,0 +1,63 @@
+.brand-name {
+    font-weight: 700 !important;
+    line-height: 120%;
+}
+
+.header-jumbotron {
+    height: 500px;
+    display: flex;
+    background: url('../assets/bg-jm.jpg') no-repeat center center;
+    position: relative;
+}
+
+.header-jumbotron .mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.header-jumbotron .container {
+    z-index: 2;
+}
+
+.card {
+    border: 0 !important;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+body>* {
+    flex-shrink: 0;
+}
+
+.profile {
+    flex-grow: 1;
+}
+
+.visi {
+    padding: 20px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0.25px 0.25px 3px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0.25px 0.5px 3px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0.2px 0.25px 3px 0px rgba(0, 0, 0, 0.75);
+}
+
+.misi {
+    padding: 20px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0.25px 0.25px 3px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0.25px 0.5px 3px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0.2px 0.25px 3px 0px rgba(0, 0, 0, 0.75);
+}
