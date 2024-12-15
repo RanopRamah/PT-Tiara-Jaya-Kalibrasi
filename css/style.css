@@ -1,10 +1,14 @@
+body {
+    overflow-x: hidden;
+}
+
 .brand-name {
     font-weight: 700 !important;
     line-height: 120%;
 }
 
 .header-jumbotron {
-    height: 500px;
+    height: 670px;
     display: flex;
     background: url('../assets/bg-jm.jpg') no-repeat center center;
     position: relative;
@@ -40,7 +44,7 @@ body>* {
     flex-shrink: 0;
 }
 
-.profile {
+.services-page {
     flex-grow: 1;
 }
 
@@ -60,4 +64,21 @@ body>* {
     box-shadow: 0.25px 0.25px 3px 0px rgba(0, 0, 0, 0.75);
     -webkit-box-shadow: 0.25px 0.5px 3px 0px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 0.2px 0.25px 3px 0px rgba(0, 0, 0, 0.75);
+}
+
+.layanan-title {
+    font-size: 50px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+}
+
+.reason {
+    border-radius: 20px;
+    box-shadow: 0.25px 0.25px 3px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0.25px 0.5px 3px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0.2px 0.25px 3px 0px rgba(0, 0, 0, 0.75);
+}
+
+.number {
+    font-weight: bold;
+    font-size: 60px;
 }

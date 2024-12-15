@@ -8,6 +8,8 @@
     <!-- CSS -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="assets/logo.png" type="image/x-icon">
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -38,12 +40,12 @@
                               Tentang
                          </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="About/profile.html">Profil PT. Tiara Jaya</a></li>
-                            <li><a class="dropdown-item" href="About/legal.html">Legalitas PT. Tiara Jaya</a></li>
+                            <li><a class="dropdown-item" href="Profile/index.html">Profil PT. Tiara Jaya</a></li>
+                            <li><a class="dropdown-item" href="Legalitas/index.html">Legalitas PT. Tiara Jaya</a></li>
                             <li><a class="dropdown-item" href="#history">Kebijakan PT. Tiara Jaya</a></li>
                         </ul>
                     </li>
-                    <li class="nav-item"><a class="nav-link" href="#team">Layanan</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Layanan/index.html">Layanan</a></li>
                     <li class="nav-item"><a class="nav-link" href="#contact">Kontak</a></li>
                 </ul>
             </div>
@@ -66,15 +68,16 @@
     <section id="about" class="py-5">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-md-6">
+                <div class="col-md-6" data-aos="fade-right">
                     <img src="assets/about.jpg" alt="About Us" class="img-fluid rounded">
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6" data-aos="fade-left">
                     <h2 class="text-primary fw-bold">Profil Perusahaan</h2>
-                    <p>PT Tiara Jaya Kalibrasi adalah sebuah perusahaan yang tidak hanya berfokus pada industri peralatan presisi namun juga menawarkan jasa kalibrasi berkompeten yang dilengkapi dengan laboratorium kalibrasi terakreditasi. Perusahaan jasa
-                        kalibrasi yang satu ini terletak di Kota Padang, Sumatera Barat dan menyediakan kebutuhan jasa kalibrasi yang dibutuhkan oleh pelanggannya. Anda dapat percayakan layanan jasa kalibrasi yang anda butuhkan pada PT. Tiara Jaya Kalibrasi.
+                    <p>PT Tiara Jaya Kalibrasi adalah sebuah perusahaan yang tidak hanya berfokus pada industri peralatan presisi namun juga menawarkan jasa kalibrasi berkompeten yang dilengkapi dengan laboratorium kalibrasi terakreditasi. Didirikan pada
+                        tahun 2013, berlokasi di Kota Padang, Sumatera Barat, kami menyediakan kebutuhan jasa kalibrasi yang profesional. Anda dapat percayakan layanan jasa kalibrasi yang anda butuhkan pada kami <br> Sejak didirikan, PT Tiara Jaya Kalibrasi
+                        terus berkembang secara konsisten menjadi laboratorium yang lengkap dengan menambahkan kemampuan baru secara berkala , termasuk instrumen primer dan sekunder untuk menjadi fasilitas jasa professional dan terpercaya.
                     </p>
-                    <a href="" class="btn btn-primary">Lihat Selengkapnya</a>
+                    <a href="Profile/index.html" class="btn btn-primary">Lihat Selengkapnya</a>
                 </div>
             </div>
         </div>
@@ -83,39 +86,16 @@
     <!-- Services Section -->
     <section id="services" class="py-5 bg-light">
         <div class="container">
-            <h2 class="text-center mb-4 fw-bold text-primary">Layanan Kami</h2>
-            <div class="row ">
-                <div class="col-md-6">
-                    <div class="card shadow">
-                        <div class="card-body">
-                            <div class="row d-flex justify-content-start">
-                                <div class="col-md-2 me-3 ">
-                                    <img src="assets/calibrate.png" width="100" height="100" alt="">
-                                </div>
-                                <div class="col-md text-start">
-                                    <h3 class="fw-bold">Kalibrasi</h3>
-                                    <p>PT. Tiara Jaya Kalibrasi memberikan jasa kalibrasi di laboratorium maupun di lapangan (in-situ) dengan peralatan ukur</p>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+            <div class="row d-flex">
+                <div class="col-md-5">
+                    <h1 class="fw-bold text-primary layanan-title">Apa saja layanan di <br> PT. Tiara Jaya Kalibrasi?</h1>
                 </div>
-                <div class="col-md-6">
-                    <div class="card shadow">
-                        <div class="card-body">
-                            <div class="row d-flex justify-content-start">
-                                <div class="col-md-2 me-3 ">
-                                    <img src="assets/consult.png" width="100" height="100" alt="">
-                                </div>
-                                <div class="col-md text-start">
-                                    <h3 class="fw-bold">Konsultasi</h3>
-                                    <p>PT. Tiara Jaya Kalibrasi dapat bermitra dalam hal konsultasi sistem manajemen mutu dan teknis dalam rangka pendirian laboratorium</p>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <div class="col-md-7">
+                    <p>
+                        Sebagai penyedia jasa kalibrasi alat dan sistem pengukuran tentu, PT. Tiara Jaya Kalibrasi memastikan bahwa setiap alat ukur yang dikalibrasi menyesuaikan dengan proses dan standar yang sudah berlaku. Dengan laboratorium kalibrasi yang terakreditasi KAN,
+                        PT. Tiara Jaya Kalibrasi menunjukkan perusahaan ini sudah memenuhi persyaratan yang ditentukan oleh negara maupun internasional.
+                    </p>
+                    <a href="Layanan/index.html" class="btn btn-primary">Lihat Selengkapnya</a>
                 </div>
 
             </div>
@@ -160,6 +140,11 @@
 
     <!-- Bootstrap Bundle JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
