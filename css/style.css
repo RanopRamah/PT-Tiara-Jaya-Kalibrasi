@@ -1,5 +1,15 @@
 body {
-    overflow-x: hidden;
+    overflow-x: hidden !important;
+}
+
+body {
+    overflow: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+*::-webkit-scrollbar {
+    display: none;
 }
 
 .brand-name {
@@ -85,4 +95,22 @@ body>* {
 
 .company-name {
     line-height: 1;
+}
+
+.profile-title {
+    font-size: 50px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+}
+
+.contact-title {
+    font-size: 50px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+}
+
+.contact-phone {
+    line-height: 1;
+}
+
+.company-location {
+    border-radius: 20px;
 }
